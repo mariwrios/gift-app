@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background: url("https://static.vecteezy.com/system/resources/previews/001/971/258/non_2x/retro-futurism-neon-city-background-free-vector.jpg");
+}
+input {
+  width: 40%;
+  border: none;
+  height: 40px;
+  padding: 0 30px;
+  color: #7f7f7f;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 30%;
+  display: flex;
+  overflow: hidden;
+  max-width: 270px;
+  margin-right: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  backdrop-filter: blur(5px);
+  background-color: rgba(5, 7, 60, 0.27);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+.card p {
+  padding: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card img {
+  max-height: 180px;
+}
+
+.container__cards {
+  display: flex;
+  flex-wrap: wrap;
 }
