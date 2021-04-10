@@ -25,14 +25,25 @@ form {
   justify-content: center;
 }
 
+h2 {
+  background: #fefbfb;
+  display: flex;
+  color: black;
+  height: 40px;
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
 .card {
-  width: 30%;
+  width: 300px;
+  margin: 15px;
   display: flex;
   overflow: hidden;
-  max-width: 270px;
-  margin-right: 10px;
-  border-radius: 6px;
-  margin-bottom: 10px;
+  min-width: 210px;
   border-radius: 10px;
   align-content: center;
   flex-direction: column;
@@ -58,4 +69,5 @@ form {
 .container__cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
