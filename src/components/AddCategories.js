@@ -11,6 +11,7 @@ const AddCategories = ({ setCategories }) => {
   const handleSumbit = e => {
     e.preventDefault()
     inputValue.trim().length > 2 && setCategories(categories => [inputValue, ...categories])
+    setInputValue("")
   }
   return (
     <form onSubmit={handleSumbit}>

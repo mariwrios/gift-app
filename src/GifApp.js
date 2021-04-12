@@ -2,8 +2,8 @@ import React, { useState } from "react"
 import AddCategories from "./components/AddCategories"
 import GifGrid from "./components/GiftGrid"
 
-const GifApp = () => {
-  const [categories, setCategories] = useState(["Sakura Card Captor"])
+const GifApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories)
 
   /*const handleAdd = () => {
     setCategories([...categories, "Inuyasha"])
